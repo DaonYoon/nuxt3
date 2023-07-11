@@ -3,8 +3,7 @@ import { resolve } from "path";
 
 export default defineNuxtConfig({
   alias: {
-   assets: "/<rootDir>/assets",
-
+    assets: "/<rootDir>/assets",
   },
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/content", "@pinia/nuxt"],
 });
